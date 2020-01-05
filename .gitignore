@@ -1,0 +1,6 @@
+.idea/*
+.travis/*
+.DS_Store
+.travis.yml
+target/*
+rest_web_servise.iml
