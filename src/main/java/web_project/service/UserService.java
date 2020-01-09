@@ -8,10 +8,10 @@ import org.springframework.stereotype.Service;
 import web_project.repository.UserRepo;
 
 @Service
-public class UserSevice implements UserDetailsService {
+public class UserService implements UserDetailsService {
     private final UserRepo userRepo;
 
-    public UserSevice(UserRepo userRepo) {
+    public UserService(UserRepo userRepo) {
         this.userRepo = userRepo;
     }
 
